@@ -1,0 +1,21 @@
+@keyframes down {
+    to { transform: translateY(0); }
+}
+  
+@keyframes up {
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+@keyframes scale {
+    to { transform: scale(1); }
+}
+
+@keyframes moveText {
+    0% { top: 0; }
+    50% { top: 40px; }
+    51% { top: -40px; }
+    100% { top: 0; }
+}

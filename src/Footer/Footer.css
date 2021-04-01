@@ -1,0 +1,26 @@
+.footer {
+    text-align: center;
+    background: rgb(240,243,247);
+    background: linear-gradient(180deg, rgba(240,243,247,1) 0%, var(--main-color) 100%, var(--main-color) 100%);
+    padding: 20px 0;
+    position: relative;
+    z-index: 98;
+    color: #ffffff;
+}
+
+.creator {
+    font-size: 1.125rem;
+    letter-spacing: 1.2px;
+}
+
+.creator span {
+    text-shadow: 1px 1px 4px #ffffff;
+    font-weight: 600; 
+    color: var(--main-color); 
+}
+
+/*Media*/
+
+@media(min-width:768px) {
+    .footer { height: 12vh; }
+}
